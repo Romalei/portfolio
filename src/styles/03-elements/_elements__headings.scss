@@ -1,0 +1,13 @@
+h1, h2 {
+  color: color(accent);
+  line-height: 1;
+  text-align: center;
+}
+
+h1 {
+  font-size: $app__h1;
+}
+
+h2 {
+  font-size: $app__h2;
+}

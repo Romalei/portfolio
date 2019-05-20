@@ -1,0 +1,21 @@
+// /*-------------------------------------------
+// 	#FONT GENERATOR
+// ---------------------------------------------*/
+
+//  Copy font files into assets/fonts/
+//  Gulp automatic copy this files into css/fonts
+
+///* Example for use @font-face
+//
+//	@include font-face([name-font],
+//		$app-path-font+'[name-font]',
+//		[font-style],
+//		[font-weight],
+//		[type-font(eot | woff | svg | ttf)]
+//	);
+//
+//*/
+
+@include font-face('sf', $app__base-path-font+'SF-UI-Display/sf-bold', bold, normal, otf);
+@include font-face('sf', $app__base-path-font+'SF-UI-Display/sf-light', 300, normal, otf);
+@include font-face('InputSerif', $app__base-path-font+'InputSerif/InputSerif-Light', 300, normal, eot ttf woff);

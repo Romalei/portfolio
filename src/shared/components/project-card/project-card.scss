@@ -1,0 +1,95 @@
+@import "src/styles/core";
+
+.#{$app__ns}project-card {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, .15);
+  border-radius: 4px;
+  border-bottom: 8px solid;
+  position: relative;
+
+  &__title {
+    margin: 1rem 1rem 2rem 1rem;
+    transition: .2s;
+  }
+
+  &__logo {
+    position: absolute;
+    top: 0;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: .2s;
+  }
+
+  &__overlay {
+    transition: .2s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: z-index(tooltip);
+    transform: translateY(100%);
+
+    > * {
+      opacity: 0;
+      transition: .5s;
+      transition-delay: .2s;
+    }
+  }
+
+  &:hover {
+    .#{$app__ns}project-card {
+      &__logo {
+        transform: scale(.65) translateY(-35%);
+      }
+      &__title {
+        transform: scale(.65) translateY(-35%);
+      }
+
+      &__overlay {
+        transform: translateY(0);
+
+        > * {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+}
+
+.#{$app__ns}description {
+  color: color(default);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1;
+  padding: 20px;
+
+  &__title {
+    margin: 0 0 .25rem 0;
+    font-size: 1.125rem;
+  }
+
+  &__subtitle {
+    margin: 0;
+    font-size: .875rem;
+  }
+
+  &__text {
+    color: darken(color(default), 3%);
+    font-size: .875rem;
+  }
+
+  &__link {
+    margin-right: auto;
+    color: color(default);
+    font-weight: 500;
+  }
+}

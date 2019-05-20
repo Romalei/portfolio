@@ -1,0 +1,80 @@
+///*-------------------------------------------------------------------------
+//   #SETTINGS CONFIG
+//--------------------------------------------------------------------------*/
+
+//	CONTENT THIS FILE:
+//		# NAMESPACE
+//      # CONFIG - FONTS
+//		# BASIC VALUE FOR PROJECT
+//      # HEADINGS | FONT-SIZE DEFAULT
+//		# CONFIG - RESPONSIVE TYPE AND MEDIAQUERIES 
+//		# HEADER CONFIG
+
+
+///*-------------------------------------------------------------------------
+//   	# NAMESPACE
+//--------------------------------------------------------------------------*/
+
+$app__ns: rz- !default;
+$app__anim: $app__ns + anim__;
+
+///*-----------------------------------------------------
+///     # CONFIG - FONTS
+///-----------------------------------------------------*/
+$app__font--default: Roboto, sans-serif;
+$app__font--alternative: Tahoma, sans-serif;
+
+///*-------------------------------------------------------------------------
+//   	# BASIC VALUE FOR PROJECT
+//--------------------------------------------------------------------------*/
+
+$app__base-font-size: 16;
+$app__base-line-height: 1.5;
+$app__base-background-color: default;
+$app__base-color: typography;
+$app__base-font-family: $app__font--default;
+$app__base-spacing: 30;
+$app__base-path-font: "/fonts/" !default;
+$app__base-path-img: "/img/";
+$app__base-path-icons: "/icons/";
+
+///*------------------------------------
+//    # HEADINGS | FONT-SIZE DEFAULT
+//------------------------------------*/
+
+$app__h1: 48px !default;
+$app__h2: 32px !default;
+$app__h3: 20px !default;
+$app__h4: 18px !default;
+$app__h5: 13px !default;
+$app__h6: 11px !default;
+
+///*-----------------------------------------------------
+///		# CONFIG - RESPONSIVE TYPE AND MEDIAQUERIES 
+///-----------------------------------------------------*/
+
+$app__container-padding: 40px;
+$app__container-padding-sm: 20px;
+
+$app__xl: 1440px;
+$app__lg: 1280px;
+$app__md: 1024px;
+$app__sm: 768px;
+$app__xs: 486px;
+$app__ts: 374px;
+
+$responsive-breakpoints: (
+        xl: $app__xl, // extra large
+        lg: $app__lg, // large
+        md: $app__md, // medium
+        sm: $app__sm, // small
+        xs: $app__xs, // extra small
+        ts: $app__ts, // the smallest
+) !default;
+
+///*-----------------------------------------------------
+///		# HEADER CONFIG
+///-----------------------------------------------------*/
+
+$app__header-height: 50px;
+$app__footer-height: 77px;

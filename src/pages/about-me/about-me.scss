@@ -1,0 +1,98 @@
+@import "src/styles/core";
+
+.#{$app__ns}info {
+  display: flex;
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @include media(md) {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px 80px 20px;
+    svg {
+      width: 150px;
+      height: 150px;
+    }
+  }
+
+  @include media(xs) {
+    padding: 0 10px 50px 10px;
+    svg {
+      width: 80px;
+      height: 80px;
+    }
+  }
+}
+
+.#{$app__ns}boy {
+  opacity: 0;
+  animation: #{$app__anim}fadeIn 1s forwards;
+}
+
+.#{$app__ns}faq {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+
+  @include media(sm) {
+    font-size: .85rem;
+  }
+
+  &__subtitle {
+    color: color(soft);
+    font-size: 1.375em;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1;
+    opacity: 0;
+    animation: #{$app__anim}slideInDown .75s forwards;
+
+    @include media(xs) {
+      margin-top: .5em;
+      font-size: 1.1em;
+    }
+  }
+
+  &__name {
+    font-weight: bold;
+    color: color(accent);
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-bottom: .75em;
+    line-height: 1;
+    opacity: 0;
+    animation: #{$app__anim}slideInDown .75s .25s forwards;
+
+    @include media(xs) {
+      font-size: 1.75em;
+    }
+  }
+
+  &-list {
+    list-style-type: none;
+    opacity: 0;
+    animation: #{$app__anim}fadeIn .75s .75s forwards;
+
+    @include media(xs) {
+      margin-top: 40px;
+      margin-left: -70px;
+    }
+
+    &__item {
+      font-size: 1.175em;
+
+      &:nth-of-type(odd) {
+        font-weight: bold;
+      }
+
+      &:nth-of-type(even) {
+        font-size: .95em;
+        margin-bottom: .5em;
+      }
+    }
+  }
+}
+

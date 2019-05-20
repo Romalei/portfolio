@@ -1,0 +1,23 @@
+/*------------------------------------
+    # ELEMENT BODY
+------------------------------------*/
+body {
+    font-family: $app__font--default;
+    color: color($app__base-color);
+    background-color: color($app__base-background-color);
+    -webkit-text-size-adjust: 100%;
+    margin: 0;
+    min-width: 320px;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+
+    &.rz-scrollable {
+        overflow-y: auto;
+    }
+}
+
+/*------------------------------------
+   # END ELEMENT BODY
+------------------------------------*/

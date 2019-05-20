@@ -1,0 +1,33 @@
+.#{$app__ns}title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 3rem;
+  width: 100%;
+  color: color(soft);
+  margin-bottom: auto;
+  margin-top: 200px;
+  flex: none;
+  opacity: 0;
+  animation: #{$app__anim}fadeIn 1s forwards;
+
+  @include media(md) {
+    margin-bottom: 18vh;
+    margin-top: 18vh;
+  }
+
+  @include media(sm) {
+    font-size: 2rem;
+  }
+
+  @include media(xs) {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    font-size: 1.5rem;
+  }
+
+  @include media(ts) {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+}

@@ -1,0 +1,3 @@
+.#{$app__ns}main {
+  min-height: calc(100vh - #{$app__header-height});
+}

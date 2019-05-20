@@ -1,0 +1,60 @@
+.#{$app__ns}submit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: color(default);
+  background-color: color(accent);
+  box-shadow: 0 4px 12px #FF64738C;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 1.125rem;
+  transition: .2s;
+
+  &_sent {
+    .#{$app__ns}submit__icon {
+      animation: #{$app__anim}plane 2s forwards;
+
+      path {
+        fill: color(accent);
+      }
+    }
+  }
+
+  &__icon {
+    transition: .2s;
+    path {
+      transition: .2s;
+    }
+  }
+
+  > * {
+    margin: 0 5px;
+  }
+
+  &:hover {
+    background-color: lighten(color(accent), 4%);
+
+    .#{$app__ns}submit__icon {
+      transform: rotateZ(15deg);
+    }
+  }
+
+  &:active {
+    background-color: darken(color(accent), 4%);
+  }
+}
+
+@keyframes #{$app__anim}plane {
+  0% {
+    transform: rotateZ(15deg) translate(0);
+    opacity: 1;
+  }
+  10% {
+    fill: color(accent);
+  }
+  100% {
+    transform: rotateZ(45deg) translate(500px, -500px);
+    opacity: 0;
+  }
+}

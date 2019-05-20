@@ -1,0 +1,94 @@
+$size: 500px;
+
+.#{$app__ns}next {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: $size;
+  height: $size;
+  z-index: z-index(footer);
+  transition: box-shadow .2s, background-color .2s;
+  padding: 20px;
+  background-color: color(accent);
+  transform: translate(50%, 50%) rotateZ(45deg);
+
+  &__text {
+    transform: rotateZ(-45deg) translate(-95%, 480%);
+    color: color(default);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    max-width: $size / 2.5;
+    text-align: right;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    user-select: none;
+  }
+
+  @include media-up(lg) {
+    &:hover {
+      box-shadow: -4px -4px 16px rgba(0, 0, 0, .15);
+      cursor: pointer;
+      background-color: lighten(color(accent), 3%);
+    }
+    &:active {
+      background-color: darken(color(accent), 3%);
+      box-shadow: none;
+    }
+  }
+
+  @include media(lg) {
+    background: none;
+    transform: none;
+    height: auto;
+    width: auto;
+    font-size: .875rem;
+    cursor: pointer;
+    padding: 0;
+    &__text {
+      transform: none;
+      color: color(accent);
+      margin: auto 20px auto auto;
+      text-align: center;
+      max-width: 100%;
+      font-size: inherit;
+      position: relative;
+      overflow: visible;
+      padding: 20px 30px 20px 20px;
+      line-height: 1;
+      font-weight: 500;
+
+      &:hover {
+        &::before {
+          opacity: 0;
+          right: -24px;
+        }
+      }
+
+      &:before {
+        content: '';
+        transition: .2s;
+        background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z' fill='%23FF6473'/%3E%3C/svg%3E%0A");
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+      }
+    }
+  }
+
+  @include media(md) {
+    width: 100%;
+    background-color: darken(color(default), 3%);
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid darken(color(default), 11.5%);
+  }
+
+}

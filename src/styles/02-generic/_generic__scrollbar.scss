@@ -1,0 +1,10 @@
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: color(accent, .15);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background-color: color(accent);
+}
