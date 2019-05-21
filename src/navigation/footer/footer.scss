@@ -8,6 +8,7 @@
   border-top: 1px solid color(soft);
   font-size: .75rem;
   color: color(disabled);
+  animation: #{$app__anim}fadeIn 1s forwards;
   @include media(sm) {
     padding: 10px;
   }

@@ -18,6 +18,7 @@
   align-items: stretch;
   margin-top: 100px;
   font-size: 1.125rem;
+  animation: #{$app__anim}slideInDown .5s forwards;
   @include media(md) {
     margin-top: 0;
   }
@@ -57,6 +58,13 @@
     border-radius: 100%;
     background-color: color(disabled);
     overflow: hidden;
+    opacity: 0;
+
+    @for $i from 1 through 3 {
+      &:nth-of-type(#{$i}) {
+        animation: #{$app__anim}fadeIn .25s #{$i * .05 + .35}s forwards;
+      }
+    }
 
     a {
       display: inline-block;

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './my-works.scss';
 import { MY_WORKS } from '../../models/consts/my-works';
 import ProjectCard from '../../shared/components/project-card/project-card';
+import Next from '../../shared/components/next/next';
 
 class MyWorks extends Component<{ history: any }> {
 
@@ -19,15 +20,9 @@ class MyWorks extends Component<{ history: any }> {
                     </div>
                 </div>
 
-                <div className="rz-next" onClick={() => this.goTo('/contacts')}>
-                    <p className="rz-next__text">Contacts</p>
-                </div>
+                <Next history={this.props.history} prev={'/technologies'} next={'/contacts'} />
             </section>
         );
-    }
-
-    goTo(path: string): void {
-        this.props.history.push(path);
     }
 }
 

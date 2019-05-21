@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './technologies.scss';
 import { TECHNOLOGIES } from '../../models/consts/technologies';
 import { TechImage } from '../../models/classes/tech-image';
+import Next from '../../shared/components/next/next';
 
 class Technologies extends Component<{ history: any }> {
 
@@ -23,15 +24,9 @@ class Technologies extends Component<{ history: any }> {
                     </div>
                 </div>
 
-                <div className="rz-next" onClick={() => this.goTo('/my-works')}>
-                    <p className="rz-next__text">My works</p>
-                </div>
+                <Next history={this.props.history} prev={'/'} next={'/my-works'}/>
             </section>
         );
-    }
-
-    goTo(path: string): void {
-        this.props.history.push(path);
     }
 }
 
