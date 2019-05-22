@@ -4,25 +4,70 @@
   justify-content: center;
   color: color(default);
   background-color: color(accent);
-  box-shadow: 0 4px 12px #FF64738C;
+  box-shadow: 0 4px 12px transparentize(color(accent), .4);
   border: none;
   padding: 10px 20px;
   font-weight: bold;
   font-size: 1.125rem;
   transition: .2s;
+  position: relative;
 
-  &_sent {
+  > * {
+    z-index: z-index(overlay);
+  }
+
+  &__label {
+    transition: .2s;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    background-color: darken(color(accent), 15%);
+    transition: 2s;
+    opacity: 0;
+    z-index: 0;
+  }
+
+  &_sending::before {
+    width: 100%;
+    opacity: 1;
+  }
+
+  &_error {
+    >* {
+      animation: #{$app__anim}shake .3s forwards;
+    }
+  }
+
+  &_success {
+    background-color: color(success);
+    box-shadow: 0 4px 12px color(success);
+
+    .#{$app__ns}submit__label {
+      margin-left: 34.65px;
+    }
+
     .#{$app__ns}submit__icon {
       animation: #{$app__anim}plane 2s forwards;
 
       path {
-        fill: color(accent);
+        fill: color(success);
       }
+    }
+
+    &::before {
+      display: none;
     }
   }
 
   &__icon {
     transition: .2s;
+
     path {
       transition: .2s;
     }
@@ -32,7 +77,7 @@
     margin: 0 5px;
   }
 
-  &:hover {
+  &:not(.#{$app__ns}submit_success):hover {
     background-color: lighten(color(accent), 4%);
 
     .#{$app__ns}submit__icon {
@@ -56,5 +101,23 @@
   100% {
     transform: rotateZ(45deg) translate(500px, -500px);
     opacity: 0;
+  }
+}
+
+@keyframes #{$app__anim}shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(25px);
+  }
+  50% {
+    transform: translateX(-15px);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
   }
 }

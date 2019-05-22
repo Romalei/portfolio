@@ -9,6 +9,7 @@ $menu-btn-width: 30px;
   position: sticky;
   top: 0;
   z-index: z-index(header);
+  animation: #{$app__anim}fadeIn 1s forwards;
 
   &__container {
     height: 100%;

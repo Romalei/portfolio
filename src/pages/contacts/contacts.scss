@@ -37,6 +37,7 @@
   border: none;
   border-bottom: 1px solid color(soft);
   margin-bottom: .75rem;
+  background-color: transparent !important;
 
   &::placeholder {
     color: color(soft);
@@ -55,10 +56,15 @@
     margin: 0 6px;
     width: 40px;
     height: 40px;
-    border-radius: 100%;
+    border-radius: 10em;
     background-color: color(disabled);
     overflow: hidden;
     opacity: 0;
+
+    &:hover {
+      background-color: color(accent);
+
+    }
 
     @for $i from 1 through 3 {
       &:nth-of-type(#{$i}) {
@@ -80,4 +86,13 @@
 
 .#{$app__ns}footer {
   margin-top: auto;
+}
+
+.#{$app__ns}skype {
+  text-decoration: none;
+  color: color(typography);
+
+  &:hover {
+    color: lighten(color(typography), 20%);
+  }
 }
