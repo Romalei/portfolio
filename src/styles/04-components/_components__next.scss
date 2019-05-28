@@ -10,8 +10,6 @@ $size: 500px;
   transition: box-shadow .2s, background-color .2s;
   padding: 20px;
   background-color: color(accent);
-  transform: translate(50%, 50%) rotateZ(45deg);
-  animation: #{$app__anim}fadeIn 1s forwards;
 
   &__text {
     transform: rotateZ(-45deg) translate(-95%, 480%);
@@ -60,6 +58,7 @@ $size: 500px;
   }
 
   @include media-up(lg) {
+    animation: #{$app__anim}zoomInRight .75s forwards;
     &:hover {
       box-shadow: -4px -4px 16px rgba(0, 0, 0, .15);
       cursor: pointer;

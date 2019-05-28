@@ -40,3 +40,14 @@
     transform: scale(1);
   }
 }
+
+@keyframes #{$app__anim}zoomInRight {
+  0% {
+    transform: translate(100%, 100%) rotateZ(45deg) scale(.25);
+    opacity: .75;
+  }
+  100% {
+    transform: translate(50%, 50%) rotateZ(45deg) scale(1);
+    opacity: 1;
+  }
+}
