@@ -54,6 +54,7 @@
       &__logo {
         transform: scale(.65) translateY(-35%);
       }
+
       &__title {
         transform: scale(.65) translateY(-35%);
       }
@@ -89,8 +90,22 @@
   }
 
   &__text {
+    overflow-y: auto;
+    flex-grow: 1;
     color: darken(color(default), 3%);
     font-size: .875rem;
+
+    &::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+      background-color: color(soft, .15);
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border-radius: 2px;
+      background-color: color(soft, .25);
+    }
+
   }
 
   &__link {
