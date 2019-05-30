@@ -19,7 +19,9 @@ class Technologies extends Component<{ history: any }> {
                     <h1 className="rz-title">Technologies</h1>
                     <div className="rz-technologies__inner">
                         {this.images.map(el => (
-                            <img key={el.path} src={el.path} style={el.style} alt={el.alt}/>
+                            <div key={el.path} style={el.style} className="rz-technologies__image-wrap">
+                                <img src={el.path} alt={el.alt}/>
+                            </div>
                         ))}
                     </div>
                 </div>

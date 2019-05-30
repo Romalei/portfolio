@@ -61,7 +61,7 @@ export const MY_WORKS: IProject[] = [
         descr: 'This company is specialised on irrigation systems. The website I\'ve been working on gives you ' +
             'an ability to configure your irrigation system however you want. You can create different programs ' +
             'and make a schedule for them. You can see the status of your system in realtime: which valve is ' +
-            'irrigating at the moment, if there any alert or something like this.',
+            'irrigating at the moment, if there is any alert or something like that.',
         subtitle: 'Automated irrigation systems',
     },
     {
