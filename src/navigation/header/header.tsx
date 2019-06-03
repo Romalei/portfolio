@@ -4,17 +4,20 @@ import { store } from '../../store';
 import { toggleMobileMenuAction } from '../../store/layout/layout.actions';
 import { NavLink } from 'react-router-dom';
 import { AppRoute } from '../../models/interfaces/route';
+import { LayoutState } from "../../store/layout/layout.reducer";
 
 class Header extends Component {
 
     routes: AppRoute[] = store.getState().layout.routes || [];
+    pens: AppRoute[] = store.getState().layout.pens || [];
 
     constructor(params: any) {
         super(params);
 
         store.subscribe(() => {
-           const state = store.getState();
-           this.routes = state.layout.routes || [];
+            const state: { layout: LayoutState } = store.getState();
+            this.routes = state.layout.routes || [];
+            this.pens = state.layout.pens || [];
         });
     }
 
@@ -38,6 +41,21 @@ class Header extends Component {
                                 </li>
                             ))
                         }
+                        <li className="rz-nav__item">
+                            <span>Pens</span>
+                            <ul className="rz-submenu rz-nav__submenu">
+                                {
+                                    this.pens.map(p => (
+                                        <li key={p.path} className="rz-submenu__item">
+                                            <a href={p.path} target="_blank" className="rz-nav__link rz-submenu__link"
+                                                     onClick={() => this.toggleMobileMenu(false)}>
+                                                {p.label}
+                                            </a>
+                                        </li>
+                                    ))
+                                }
+                            </ul>
+                        </li>
                     </ul>
                     <button className="rz-menu-btn" onClick={() => this.toggleMobileMenu()}>
                         <span className="rz-menu-btn__ball"/>

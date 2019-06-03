@@ -6,7 +6,7 @@ import { http } from '../../services/http.service';
 import { RequestStatus } from '../../models/enums/request-status';
 
 const linkedin = process.env.PUBLIC_URL + '/img/linked-in.svg';
-const vk = process.env.PUBLIC_URL + '/img/vk.svg';
+const github = process.env.PUBLIC_URL + '/img/github.svg';
 const telegram = process.env.PUBLIC_URL + '/img/telegram.png';
 
 class Contacts extends Component<{}, { message: string }> {
@@ -86,8 +86,8 @@ class Contacts extends Component<{}, { message: string }> {
                                target="_blank"/>
                         </li>
                         <li className="rz-links__item">
-                            <a style={{ backgroundImage: 'url(' + vk + ')' }}
-                               href="https://vk.com/romazherdev" target="_blank"/>
+                            <a style={{ backgroundImage: 'url(' + github + ')' }}
+                               href="https://github.com/Romalei" target="_blank"/>
                         </li>
                         <li className="rz-links__item">
                             <a style={{ backgroundImage: 'url(' + telegram + ')' }}
