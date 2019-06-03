@@ -18,6 +18,7 @@ const initialState: LayoutState = {
     pens: [
         {path: 'https://romalei.github.io/projects/snake/', label: 'Snake'},
         {path: 'https://romalei.github.io/projects/tg-chart/', label: 'Charts'},
+        {path: 'https://romalei.github.io/projects/raycasting/', label: 'Raycasting'},
     ]
 };
 
