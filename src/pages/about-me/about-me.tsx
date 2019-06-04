@@ -4,7 +4,11 @@ import Boy from '../../shared/components/boy/boy';
 import { withRouter } from 'react-router-dom';
 
 class AboutMe extends Component<{ history: any }> {
-    
+
+    componentDidMount(): void {
+        window.scrollTo(0, 0);
+    }
+
     render() {
         return (
             <section className="rz-about-me rz-page">
@@ -30,7 +34,8 @@ class AboutMe extends Component<{ history: any }> {
                                     <li className="rz-faq-list__item">What’s the difference between me and other
                                         developers?
                                     </li>
-                                    <li className="rz-faq-list__item">I have a magic cat which helps me to write beautiful
+                                    <li className="rz-faq-list__item">I have a magic cat which helps me to write
+                                        beautiful
                                         code :3
                                     </li>
                                 </ul>

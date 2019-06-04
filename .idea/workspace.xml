@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="12a3138b-039a-4613-9395-84ad5c1ff25d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/layout/layout.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/layout/layout.reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about-me/about-me.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about-me/about-me.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contacts/contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contacts/contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/my-works/my-works.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/my-works/my-works.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/technologies/technologies.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/technologies/technologies.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/02-generic/_generic__box-sizing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/02-generic/_generic__box-sizing.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,31 +30,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/store/layout/layout.reducer.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+            <state relative-caret-position="378">
+              <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
               </folding>
@@ -59,19 +42,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/04-components/_components__page.scss">
+        <entry file="file://$PROJECT_DIR$/src/pages/contacts/contacts.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/technologies/technologies.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+            <state relative-caret-position="252">
+              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -80,28 +54,64 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/services/notification.service.ts">
+        <entry file="file://$PROJECT_DIR$/src/pages/my-works/my-works.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="182">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
+        <entry file="file://$PROJECT_DIR$/src/pages/technologies/technologies.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+            <state relative-caret-position="210">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/services/http.service.ts">
+        <entry file="file://$PROJECT_DIR$/src/pages/about-me/about-me.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+            <state relative-caret-position="294">
+              <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/03-elements/_elements__body.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/03-elements/_elements__html.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/styles/02-generic/_generic__box-sizing.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -119,7 +129,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>photoo</find>
       <find>angu</find>
       <find>Technologies.</find>
       <find>Е</find>
@@ -149,6 +158,7 @@
       <find>if</find>
       <find>flex-end</find>
       <find>pens: AppRoute</find>
+      <find>SCROLL-BE</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -157,9 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/models/interfaces/style.ts" />
-        <option value="$PROJECT_DIR$/src/styles/01-tools/_tools__responsive.scss" />
-        <option value="$PROJECT_DIR$/src/navigation/main/main.tsx" />
         <option value="$PROJECT_DIR$/src/navigation/mob-menu/mob-menu.tsx" />
         <option value="$PROJECT_DIR$/src/shared/components/project-card.ts" />
         <option value="$PROJECT_DIR$/src/shared/components/project-card/project-card.ts" />
@@ -167,7 +174,6 @@
         <option value="$PROJECT_DIR$/src/shared/components/project-card/project-card.tsx" />
         <option value="$PROJECT_DIR$/src/styles/04-components/_components__title.scss" />
         <option value="$PROJECT_DIR$/src/models/classes/tech-image.ts" />
-        <option value="$PROJECT_DIR$/src/pages/about-me/about-me.tsx" />
         <option value="$PROJECT_DIR$/src/pages/about-me/about-me.scss" />
         <option value="$PROJECT_DIR$/src/styles/05-trumps/_trumps__colors.scss" />
         <option value="$PROJECT_DIR$/src/styles/_index.scss" />
@@ -177,7 +183,6 @@
         <option value="$PROJECT_DIR$/src/styles/_config.scss" />
         <option value="$PROJECT_DIR$/src/navigation/footer/footer.scss" />
         <option value="$PROJECT_DIR$/src/models/consts/breakpoints.ts" />
-        <option value="$PROJECT_DIR$/src/pages/my-works/my-works.tsx" />
         <option value="$PROJECT_DIR$/src/models/enums/app-route.ts" />
         <option value="$PROJECT_DIR$/src/models/consts/routes.ts" />
         <option value="$PROJECT_DIR$/src/models/consts/route-labels.ts" />
@@ -193,7 +198,6 @@
         <option value="$PROJECT_DIR$/src/styles/00-settings/_settings__colors.scss" />
         <option value="$PROJECT_DIR$/src/styles/00-settings/_settings__z-index.scss" />
         <option value="$PROJECT_DIR$/src/styles/04-components/_components__submit.scss" />
-        <option value="$PROJECT_DIR$/src/pages/contacts/contacts.tsx" />
         <option value="$PROJECT_DIR$/src/shared/components/next/next.scss" />
         <option value="$PROJECT_DIR$/src/styles/02-generic/_generic__animations.scss" />
         <option value="$PROJECT_DIR$/src/styles/04-components/_components__next.scss" />
@@ -202,12 +206,18 @@
         <option value="$PROJECT_DIR$/src/pages/contacts/contacts.scss" />
         <option value="$PROJECT_DIR$/src/shared/components/project-card/project-card.scss" />
         <option value="$PROJECT_DIR$/src/models/consts/my-works.ts" />
-        <option value="$PROJECT_DIR$/src/pages/technologies/technologies.tsx" />
         <option value="$PROJECT_DIR$/src/styles/04-components/_components__page.scss" />
         <option value="$PROJECT_DIR$/src/pages/technologies/technologies.scss" />
         <option value="$PROJECT_DIR$/src/index.tsx" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/store/layout/layout.reducer.ts" />
+        <option value="$PROJECT_DIR$/src/pages/contacts/contacts.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/my-works/my-works.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/technologies/technologies.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/about-me/about-me.tsx" />
+        <option value="$PROJECT_DIR$/src/styles/03-elements/_elements__html.scss" />
+        <option value="$PROJECT_DIR$/src/styles/03-elements/_elements__body.scss" />
+        <option value="$PROJECT_DIR$/src/styles/02-generic/_generic__box-sizing.scss" />
       </list>
     </option>
   </component>
@@ -231,7 +241,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -281,6 +290,13 @@
               <item name="romazherdev" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="romazherdev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="romazherdev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="about-me" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="romazherdev" type="b2602c69:ProjectViewProjectNode" />
@@ -362,13 +378,6 @@
               <item name="romazherdev" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="00-settings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="romazherdev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="romazherdev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
               <item name="02-generic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -376,12 +385,13 @@
               <item name="romazherdev" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="04-components" type="462c0819:PsiDirectoryNode" />
+              <item name="03-elements" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -494,7 +504,9 @@
       <workItem from="1559189360665" duration="1366000" />
       <workItem from="1559411540432" duration="252000" />
       <workItem from="1559578306086" duration="1261000" />
-      <workItem from="1559588542973" duration="71000" />
+      <workItem from="1559588542973" duration="136000" />
+      <workItem from="1559669543450" duration="34000" />
+      <workItem from="1559669605805" duration="222000" />
     </task>
     <task id="LOCAL-00001" summary="layout is completed (almost)">
       <created>1558382723249</created>
@@ -531,17 +543,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559190623060</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="raycasting project">
+      <created>1559588625110</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559588625110</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107447000" />
+    <option name="totallyTimeSpent" value="107768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20231824" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20682302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -559,7 +578,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Run" order="3" weight="0.21588486" />
+      <window_info anchor="right" id="Run" order="3" visible="true" weight="0.21801706" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -571,26 +590,10 @@
     <MESSAGE value="email sending" />
     <MESSAGE value="next animation, particles component initialized" />
     <MESSAGE value="layout fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="layout fixes" />
+    <MESSAGE value="raycasting project" />
+    <option name="LAST_COMMIT_MESSAGE" value="raycasting project" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/models/classes/tech-image.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="55" column="40" lean-forward="true" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/about-me/about-me.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="76" column="43" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/img/my-works/mixort.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -600,16 +603,6 @@
     <entry file="file://$PROJECT_DIR$/public/img/telegram.svg" />
     <entry file="file://$PROJECT_DIR$/public/img/telegram.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/about-me/about-me.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="78" lean-forward="true" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="78" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/05-trumps/_trumps__colors.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -674,16 +667,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/models/enums/app-route.ts" />
-    <entry file="file://$PROJECT_DIR$/src/pages/my-works/my-works.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="22" column="92" selection-start-line="22" selection-start-column="92" selection-end-line="22" selection-end-column="92" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/navigation/header/header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -730,16 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/contacts/contacts.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="63" column="48" selection-start-line="63" selection-start-column="48" selection-end-line="63" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -833,13 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/technologies/technologies.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -850,20 +816,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/04-components/_components__page.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/technologies/technologies.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -895,20 +858,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/store/layout/layout.reducer.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+        <state relative-caret-position="378">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/contacts/contacts.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/my-works/my-works.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/technologies/technologies.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/technologies/technologies.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/about-me/about-me.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/03-elements/_elements__body.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/03-elements/_elements__html.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/02-generic/_generic__box-sizing.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
         </state>
       </provider>
     </entry>

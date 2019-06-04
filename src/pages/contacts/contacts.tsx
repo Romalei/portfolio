@@ -20,6 +20,7 @@ class Contacts extends Component<{}, { message: string }> {
     }
 
     componentDidMount(): void {
+        window.scrollTo(0, 0);
         this.setState({});
     }
 

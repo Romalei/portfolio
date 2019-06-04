@@ -12,6 +12,10 @@ class Technologies extends Component<{ history: any }> {
         super(props);
     }
 
+    componentDidMount(): void {
+        window.scrollTo(0, 0);98
+    }
+
     render() {
         return (
             <section className="rz-technologies rz-page">

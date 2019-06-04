@@ -10,6 +10,10 @@ class MyWorks extends Component<{ history: any }> {
         super(props);
     }
 
+    componentDidMount(): void {
+        window.scrollTo(0, 0);
+    }
+
     render() {
         return (
             <section className="rz-page rz-my-works">
