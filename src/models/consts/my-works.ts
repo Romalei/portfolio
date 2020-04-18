@@ -2,20 +2,9 @@ import { IProject } from '../interfaces/project';
 
 export const MY_WORKS: IProject[] = [
     {
-        name: 'Biarritz',
-        color: '#DA312A',
-        logo: 'img/my-works/biarritz.png',
-        link: 'https://bo-pb.com',
-        descr: 'Isomorphic website with admin panel for french rugby club.<br><br>' +
-            'Technologies:<br>' +
-            'Angular 6, Node.js, express, Angular Universal, Angular Material, MongoDB, NgRx, RxJS',
-        subtitle: 'SPA with SSR + CMS',
-    },
-    {
         name: 'Burger King',
         color: '#FEBE10',
         logo: 'img/my-works/burger-king.png',
-        // link: 'https://bo-pb.com',
         descr: 'A kiosk application for making purchases<br><br>' +
             'Technolgoies:<br>' +
             'HTML, Sass, Angular',
@@ -35,7 +24,6 @@ export const MY_WORKS: IProject[] = [
         name: 'Gaia',
         color: '#212121',
         logo: 'img/my-works/gaia.png',
-        link: 'http://gaia.gml.aisnovations.com',
         descr: 'Users are able to buy courses and pass them. Administrators can to create courses, tests, review them,' +
             'solve issues which comes from users etc.<br><br>' +
             'Technologies:<br>' +
@@ -46,7 +34,7 @@ export const MY_WORKS: IProject[] = [
         name: 'NDAX',
         color: '#00B8FF',
         logo: 'img/my-works/ndax.png',
-        link: 'http://ndax.gml.aisnovations.com',
+        link: 'https://ndax.io/',
         descr: 'Buy/sell crypto or national currency. See everything in realtime. Do withdraw from your wallet' +
             ' or make deposits.<br><br>' +
             'Technologies:<br>' +
@@ -57,18 +45,17 @@ export const MY_WORKS: IProject[] = [
         name: 'Galcon',
         color: '#00AEEC',
         logo: 'img/my-works/galcon.png',
-        link: 'http://galileo.gml.aisnovations.com',
-        descr: 'This company is specialised on irrigation systems. The website I\'ve been working on gives you ' +
-            'an ability to configure your irrigation system however you want. You can create different programs ' +
-            'and make a schedule for them. You can see the status of your system in realtime: which valve is ' +
+        descr: 'This company is specialised on irrigation systems. The web app I have worked on gives you ' +
+            'an ability to monitor and configure your irrigation system. You can create different programs ' +
+            'and make a schedule for them, see the status of your system in realtime: which valve is ' +
             'irrigating at the moment, if there is any alert or something like that.',
-        subtitle: 'Automated irrigation systems',
+        subtitle: 'Irrigation-control system',
     },
     {
         name: 'JET Technical',
         color: '#086090',
         logo: 'img/my-works/jet.png',
-        link: 'http://jet.gml.aisnovations.com',
+        link: 'https://www.jettechnical.com/',
         descr: 'Isomorphic website with admin panel.<br><br>' +
             'Technologies:<br>' +
             'Angular 7, Node.js, express, Angular Universal, Angular Material, MongoDB, NgRx, RxJS',

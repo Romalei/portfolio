@@ -1,5 +1,5 @@
 .#{$app__ns}page {
-  height: calc(100vh - #{$app__header-height});
+  min-height: calc(100vh - #{$app__header-height});
   display: flex;
   flex-direction: column;
   &__container {
@@ -16,4 +16,6 @@
   @include media(md) {
     height: auto;
   }
+
+
 }
