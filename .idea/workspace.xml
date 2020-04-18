@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12a3138b-039a-4613-9395-84ad5c1ff25d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/romazherdev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/romazherdev.iml" afterDir="false" />
+    <list default="true" id="12a3138b-039a-4613-9395-84ad5c1ff25d" name="Default Changelist" comment="scroll top on routing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/consts/my-works.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/consts/my-works.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/04-components/_components__container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/04-components/_components__container.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/04-components/_components__page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/04-components/_components__page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/04-components/_components__title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/04-components/_components__title.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navigation/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/header/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navigation/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/header/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contacts/contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contacts/contacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contacts/contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contacts/contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/components/next/next.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/next/next.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/components/project-card/project-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/project-card/project-card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/components/project-card/project-card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/project-card/project-card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/02-generic/_generic__reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/02-generic/_generic__reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/03-elements/_elements__html.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/03-elements/_elements__html.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/04-components/_components__next.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/04-components/_components__next.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,12 +81,22 @@
       <recent name="D:\Dev\romazherdev\src\styles" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
     <configuration default="true" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -99,6 +112,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -145,7 +163,7 @@
       <workItem from="1559669543450" duration="34000" />
       <workItem from="1559669605805" duration="311000" />
       <workItem from="1573753708363" duration="842000" />
-      <workItem from="1587237245254" duration="512000" />
+      <workItem from="1587237245254" duration="2900000" />
     </task>
     <task id="LOCAL-00001" summary="layout is completed (almost)">
       <created>1558382723249</created>
@@ -213,13 +231,37 @@
     <option name="LAST_COMMIT_MESSAGE" value="scroll top on routing" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="656" y="257" width="607" height="536" key="find.popup" timestamp="1587237268833">
+    <state x="585" y="121" key="CommitChangelistDialog2" timestamp="1587237773916">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="656" y="257" width="607" height="536" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1587237268833" />
-    <state x="623" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1587237264071">
+    <state x="585" y="121" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1587237773916" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1587237834851">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1587237264071" />
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1587237834851" />
+    <state width="404" height="596" key="GridCell.Tab.0.bottom" timestamp="1587237838620">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="404" height="596" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1587237838620" />
+    <state width="404" height="596" key="GridCell.Tab.0.center" timestamp="1587237838619">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="404" height="596" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1587237838619" />
+    <state width="404" height="596" key="GridCell.Tab.0.left" timestamp="1587237838619">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="404" height="596" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1587237838619" />
+    <state width="404" height="596" key="GridCell.Tab.0.right" timestamp="1587237838619">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="404" height="596" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1587237838619" />
+    <state x="656" y="257" width="607" height="536" key="find.popup" timestamp="1587239489952">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="656" y="257" width="607" height="536" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1587239489952" />
+    <state x="623" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1587239784006">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1587239784006" />
   </component>
 </project>

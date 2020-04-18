@@ -14,16 +14,18 @@ class ProjectCard extends Component<{ project: IProject }> {
 
     render() {
         return (
-            <div className="rz-project-card" style={{ borderBottomColor: this.data.color }}>
-                <img className="rz-project-card__logo" src={this.data.logo} alt={this.data.name}/>
-                <h3 className="rz-project-card__title" style={{ color: this.data.color }}>{this.data.name}</h3>
+            <div className="rz-project-card-wrapper" tabIndex={0}>
+                <article className="rz-project-card" style={{ borderBottomColor: this.data.color }}>
+                    <img className="rz-project-card__logo" src={this.data.logo} alt={this.data.name}/>
+                    <h3 className="rz-project-card__title" style={{ color: this.data.color }}>{this.data.name}</h3>
 
-                <div style={{ backgroundColor: this.data.color }} className="rz-project-card__overlay rz-description">
-                    <h3 className="rz-description__title">{this.data.name}</h3>
-                    <p className="rz-description__subtitle">{this.data.subtitle}</p>
-                    <p className="rz-description__text" dangerouslySetInnerHTML={{ __html: this.data.descr }}/>
-                    {this.data.link ? <a className="rz-description__link" href={this.data.link} target="_blank">Check it out</a> : ''}
-                </div>
+                    <div style={{ backgroundColor: this.data.color }} className="rz-project-card__overlay rz-description">
+                        <h3 className="rz-description__title">{this.data.name}</h3>
+                        <p className="rz-description__subtitle">{this.data.subtitle}</p>
+                        <p className="rz-description__text" dangerouslySetInnerHTML={{ __html: this.data.descr }}/>
+                        {this.data.link ? <a className="rz-description__link" href={this.data.link} target="_blank">Check it out</a> : ''}
+                    </div>
+                </article>
             </div>
         );
     }

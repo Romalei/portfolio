@@ -17,7 +17,7 @@ class Next extends Component<{ history: any, prev: string, next: string }> {
 
     render() {
         return (
-            <div className="rz-next" onClick={() => this.goNext()}>
+            <div role="button" className="rz-next" onClick={() => this.goNext()}>
                 <p className="rz-next__back" onClick={() => this.goTo(this.props.prev)}>{this.prevLabel}</p>
                 <p className="rz-next__text" onClick={() => this.goTo(this.props.next)}>{this.nextLabel}</p>
             </div>

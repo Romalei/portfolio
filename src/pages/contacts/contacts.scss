@@ -62,9 +62,8 @@
     overflow: hidden;
     opacity: 0;
 
-    &:hover {
+    &:hover, &:focus-within {
       background-color: color(accent);
-
     }
 
     @for $i from 1 through 3 {
@@ -96,4 +95,9 @@
   &:hover {
     color: lighten(color(typography), 20%);
   }
+}
+
+.#{$app__ns}purpose {
+  transform: rotateZ(-5deg);
+  opacity: .3;
 }

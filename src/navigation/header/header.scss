@@ -44,7 +44,7 @@ $menu-btn-width: 30px;
     cursor: default;
     position: relative;
 
-    &:hover {
+    &:hover, &:focus, &:focus-within {
       .#{$app__ns}nav__submenu {
         opacity: 1;
         visibility: visible;
@@ -54,16 +54,29 @@ $menu-btn-width: 30px;
   }
 
   &__link {
-    color: inherit;
+    color: color(disabled);
     text-decoration: none;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
     max-width: 100%;
     display: inline-block;
+    outline: none;
 
     &:hover, &_active {
       color: color(accent);
+    }
+
+    &:focus {
+      border-bottom: 2px solid color(accent);
+    }
+  }
+
+  &__item {
+    outline: none;
+
+    &:focus {
+      border-bottom: 2px solid color(accent);
     }
   }
 

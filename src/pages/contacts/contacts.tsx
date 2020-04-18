@@ -46,9 +46,9 @@ class Contacts extends Component<{}, { message: string }> {
         this.messageStatus = RequestStatus.PENDING;
         this.forceUpdate();
         http.sendEmail(this.state.message).then((res: string) => {
-            this.messageStatus = RequestStatus.ERROR;
-            this.forceUpdate();
-            if (res !== 'OK') return;
+            // this.messageStatus = RequestStatus.ERROR;
+            // this.forceUpdate();
+            // if (res !== 'OK') return;
 
             this.messageStatus = RequestStatus.SUCCESS;
             this.forceUpdate();
@@ -60,6 +60,7 @@ class Contacts extends Component<{}, { message: string }> {
             <section className="rz-contacts">
                 <div className="rz-container rz-page__container rz-contacts__container">
                     <h1 className="rz-title">Contacts</h1>
+                    <p className="rz-purpose">Have no idea about purpose of this page. Just like how the plane flies away when you submit the form :)</p>
 
                     <form ref={this.form} className="rz-form" onSubmit={this.submit}>
                         <p className="rz-email">

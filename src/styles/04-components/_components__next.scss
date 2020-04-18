@@ -4,6 +4,7 @@ $size: 500px;
   position: fixed;
   bottom: 0;
   right: 0;
+  display: block;
   width: $size;
   height: $size;
   z-index: z-index(footer);

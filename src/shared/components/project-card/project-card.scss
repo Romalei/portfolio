@@ -1,6 +1,36 @@
 @import "src/styles/core";
 
+.#{$app__ns}project-card-wrapper {
+  display: flex;
+  perspective: 1000px;
+  outline: none;
+
+  &:hover, &:focus, &:focus-within {
+    .#{$app__ns}project-card {
+      transform: rotateY(20deg);
+      z-index: 10;
+
+      &__logo {
+        transform: scale(.65) translateY(-35%);
+      }
+
+      &__title {
+        transform: scale(.65) translateY(-35%);
+      }
+
+      &__overlay {
+        transform: translateY(0);
+
+        > * {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
 .#{$app__ns}project-card {
+  flex:1;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -9,6 +39,7 @@
   box-shadow: 0 4px 16px rgba(0, 0, 0, .15);
   border-radius: 4px;
   position: relative;
+  transition: .2s;
 
   &__title {
     margin: 1rem 1rem 2rem 1rem;
@@ -48,27 +79,6 @@
       transition-delay: .2s;
     }
   }
-
-  &:hover {
-    .#{$app__ns}project-card {
-      &__logo {
-        transform: scale(.65) translateY(-35%);
-      }
-
-      &__title {
-        transform: scale(.65) translateY(-35%);
-      }
-
-      &__overlay {
-        transform: translateY(0);
-
-        > * {
-          opacity: 1;
-        }
-      }
-    }
-  }
-
 }
 
 .#{$app__ns}description {
@@ -112,5 +122,12 @@
     margin-right: auto;
     color: color(default);
     font-weight: 500;
+    transition: .2s;
+    outline: none;
+
+    &:focus {
+      border-left: 10px solid color(accent);
+      padding-left: 10px;
+    }
   }
 }

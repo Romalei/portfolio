@@ -41,7 +41,7 @@ class Header extends Component {
                                 </li>
                             ))
                         }
-                        <li className="rz-nav__item">
+                        <li className="rz-nav__item" tabIndex={0} role={'list'}>
                             <span>Pens</span>
                             <ul className="rz-submenu rz-nav__submenu">
                                 {
