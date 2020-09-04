@@ -21,6 +21,7 @@ const initialState: LayoutState = {
         {path: 'https://romalei.github.io/projects/raycasting/', label: 'Raycasting'},
         {path: 'https://romalei.github.io/projects/particles/', label: 'Particles'},
         {path: 'https://romalei.github.io/projects/rain/', label: 'Rain'},
+        {path: 'https://romalei.github.io/projects/a-star/', label: 'A* Pathfinding'},
     ]
 };
 
