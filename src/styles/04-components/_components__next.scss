@@ -1,6 +1,7 @@
 $size: 500px;
 
 .#{$app__ns}next {
+  border: 0;
   position: fixed;
   bottom: 0;
   right: 0;
@@ -13,7 +14,7 @@ $size: 500px;
   background-color: color(accent);
 
   &__text {
-    transform: rotateZ(-45deg) translate(-95%, 480%);
+    transform: rotateZ(-45deg) translate(-20%, 100%);
     color: color(default);
     font-weight: bold;
     text-transform: uppercase;
@@ -24,6 +25,7 @@ $size: 500px;
     text-overflow: ellipsis;
     overflow: hidden;
     user-select: none;
+    display: block;
   }
 
   &__back {

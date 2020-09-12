@@ -24,29 +24,22 @@ class AboutMe extends Component<{ history: any }> {
                                 <strong className="rz-faq__name">Roman Zherdev</strong>
                                 <ul className="rz-faq-list">
                                     <li className="rz-faq-list__item">Who am I?</li>
-                                    <li className="rz-faq-list__item">I'm a software engineer.</li>
+                                    <li className="rz-faq-list__item">I'm a Senior Software Engineer at <a href="https://epam.com" target="_blank">EPAM</a>.</li>
                                     <li className="rz-faq-list__item">What is my job?</li>
-                                    <li className="rz-faq-list__item">My job is to make websites. Mainly I create SPA
-                                        using Angular.
-                                    </li>
+                                    <li className="rz-faq-list__item">Primarily it is Frontend. However I've got some expertise with Node.js</li>
                                     <li className="rz-faq-list__item">How many years of experience do I have?</li>
-                                    <li className="rz-faq-list__item">3 years in web development.</li>
-                                    <li className="rz-faq-list__item">What’s the difference between me and other
-                                        developers?
-                                    </li>
-                                    <li className="rz-faq-list__item">I have a magic cat which helps me to write
-                                        beautiful
-                                        code :3
-                                    </li>
+                                    <li className="rz-faq-list__item">3 years in web development. And a few years with C# .NET</li>
+                                    <li className="rz-faq-list__item">What’s the difference between me and other developers?</li>
+                                    <li className="rz-faq-list__item">I have a magic cat who helps me to write beautiful code :3</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="rz-next" onClick={() => this.goTo('/technologies')}>
-                    <p className="rz-next__text">Technologies</p>
-                </div>
+                <button className="rz-next" onClick={() => this.goTo('/technologies')}>
+                    <span className="rz-next__text">Technologies</span>
+                </button>
             </section>
         );
     }
